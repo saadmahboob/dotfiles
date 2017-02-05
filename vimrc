@@ -101,7 +101,7 @@ vnoremap > >gv
 
 " Improve copy/paste, primarily clipboard interaction
 nnoremap Y y$
-noremap  <leader>y "+y
+nnoremap <leader>y "+y
 nnoremap <leader>Y "+y$
 nnoremap <leader>p :put +<CR>
 nnoremap <leader>P :put! +<CR>
